@@ -1,0 +1,87 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+}
+
+
+<div class="col-md-3"></div>
+
+<div class="main col-md-6 ">
+    <form>
+        <select class="input">
+            <option value="T">台灣</option>
+            <option value="F">越南</option>
+        </select>
+        <select class="input ">
+            <option value="U">桃園</option>
+            <option value="Q">東鋼營造</option>
+            <option value="V">保障</option>
+            <option value="M">台中</option>
+        </select>
+        <input class="input" id="account" placeholder="帳號" data-val-required="請輸入帳號" />
+        <input class="input" id="password" placeholder="密碼" data-val-required="請輸入密碼" />
+        <div >
+            <div class="col-md-6">
+                <button class="btn btn-primary2 btn-lg">重設密碼</button>
+            </div>
+            <div class="col-md-6">
+                <button class="btn btn-primary btn-lg">登入</button>
+            </div>
+        </div>
+    </form>
+</div>
+
+
+<style>
+    .main {
+        margin-top:15%;
+        background: #f2e6e6;
+        padding: 30px 40px;
+    }
+
+    .input {
+        width: 100%;
+        border: 3px solid #a9a9a9;
+        height: 50px;
+        margin-bottom: 10px;
+        font-size: 24px;
+        color: #333333;
+    }
+
+    .btn {
+        display: inline-block;
+        font-weight: normal;
+        text-align: center;
+        white-space: nowrap;
+        vertical-align: middle;
+        -ms-touch-action: manipulation;
+        touch-action: manipulation;
+        cursor: pointer;
+        border: 1px solid transparent;
+        padding: 6px 12px;
+        font-size: 14px;
+        line-height: 1.42857143;
+        border-radius: 4px;
+        width:100%;
+    }
+
+    .btn-primary {
+        color: #fff;
+        background-color: #337ab7;
+        border-color: #2e6da4;
+    }
+
+    .btn-primary2 {
+        color: #fff;
+        background-color: #81c864;
+        border-color: #19820d;
+    }
+
+    .btn-lg {
+        padding: 10px 16px;
+        font-size: 18px;
+        line-height: 1.3333333;
+        border-radius: 6px;
+    }
+
+</style>
